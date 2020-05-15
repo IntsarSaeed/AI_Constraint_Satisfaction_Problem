@@ -32,7 +32,7 @@ class Solver(object):
             for j in range(0, len(self.row_map.keys())):
                 print(" | {:>2}".format(board[self.row_map[i + 1] + str(j + 1)]), end='')
             print("\n")
-        print(" ---------------------- ")
+        print(" --------------------- ")
 
     def solve_board(self):
         """This method call the back-tracking algorithm for solving the Sudoku"""
